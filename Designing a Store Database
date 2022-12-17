@@ -1,0 +1,28 @@
+Objective: Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. 
+You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. 
+You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items
+
+CREATE TABLE Cars (id integer primary key, name text, prices integer);
+
+INSERT INTO cars VALUES (1, "Toyota Corolla", 17000);
+INSERT INTO cars VALUES (2, "Ford Focus SE", 22000);
+INSERT INTO cars VALUES (3, "Hyundai Sonata", 19000);
+
+INSERT INTO cars VALUES (4, "BMW i35", 21000);
+INSERT INTO cars VALUES (5, "Mazda M3", 24000);
+INSERT INTO cars VALUES (6, "Infinity Q30", 29000);
+
+INSERT INTO cars VALUES (7, "Toyota Camry", 32000);
+INSERT INTO cars VALUES (8, "Ford Escape", 36000);
+INSERT INTO cars VALUES (9, "Mazda Cx-30", 38000);
+
+INSERT INTO cars VALUES (10, "Ford Bronco", 41000);
+INSERT INTO cars VALUES (11, "Hyundai Santa FE", 47000);
+INSERT INTO cars VALUES (12, "Infinity C90", 48000);
+
+INSERT INTO cars VALUES (13, "Toyota Rav-4", 50000);
+INSERT INTO cars VALUES (14, "Ford Mustang", 53000);
+INSERT INTO cars VALUES (15, "Honda CR-V", 59000);
+
+SELECT AVG(prices) FROM cars;
+SELECT * FROM Cars;
